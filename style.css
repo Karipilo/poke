@@ -1,0 +1,143 @@
+body {
+    background-image: url('images/pikachuestrella.jpg');
+    background-size: cover;
+    /* Ajusta la imagen al fondo */
+    background-repeat: no-repeat;
+    /* Evita que la imagen se repita */
+
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.LoginUsuario {
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 10%;
+    color: red;
+    background-color: white;
+    /* Amarillo con transparencia */
+    padding: 20px;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+#pokebola {
+    width: 100px;
+    height: 100px;
+    background-image: url('images/pokebola.png');
+    background-size: cover;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    box-shadow: 0 0 0 15px white;
+}
+
+.text-center {
+    text-align: center;
+    font-size: small;
+}
+
+#subtitulo {
+    margin: 0 5px 5px 5px;
+    /* Reduce el margen superior a 0 */
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#tit_prin {
+    font-size: xx-large;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    background: white;
+    /* Fondo blanco solo para el texto */
+    display: inline-block;
+    /* Solo ocupa el espacio del texto */
+    padding: 0 10px;
+    /* Espacio a los lados del texto */
+    border-radius: 5px;
+    /* Bordes redondeados opcional */
+    /* Centrado horizontal */
+    margin-left: auto;
+    margin-right: auto;
+    /* Opcional: margen superior e inferior */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.titulo-container {
+    text-align: center;
+}
+
+#tit {
+    text-align: center;
+    font-size: xx-large;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#wallpaper {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/312091.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#boton {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: black;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 1%;
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+
+}
+
+#cambio {
+    font-size: xx-large;
+    color: red;
+    font-family: 'Courier New', Courier, monospace;
+    background: white;
+    /* Fondo blanco solo para el texto */
+    display: inline-block;
+    /* Solo ocupa el espacio del texto */
+    padding: 0 10px;
+    /* Espacio a los lados del texto */
+    border-radius: 5px;
+    /* Bordes redondeados opcional */
+    /* Centrado horizontal */
+    margin-left: auto;
+    margin-right: auto;
+    /* Opcional: margen superior e inferior */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
